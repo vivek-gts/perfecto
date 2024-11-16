@@ -1,0 +1,84 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.swiper-slide {
+  scale: 0.9;
+}
+
+.counter__section__wrapper {
+  z-index: -20;
+}
+
+.counter__box .counter__number {
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.24);
+}
+
+.recycle_image {
+  left: 0;
+  top: 0;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.logo-area img {
+  scale: 1.2;
+  margin-left: 11px;
+}
+
+.logo-area img,
+.offset-logo img {
+  filter: brightness(2.6);
+}
+
+.main-header-area {
+  border-left: 3px solid #e8112b;
+}
+
+.product-image-bg {
+  margin-top: 12px;
+}
+
+.product-image {
+  aspect-ratio: 1.2;
+  object-fit: fill;
+}
+.main-menu ul li a::before {
+  content: "";
+}
+
+#ourProducts .swiper-button-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-top: -28px;
+  margin-bottom: 28px;
+  justify-content: center;
+}
+
+#ourProducts .swiper-button-prev,
+#ourProducts .swiper-button-next {
+  position: inherit;
+  background: #e8112b;
+}
+
+#ourProducts .swiper-button-prev:hover,
+#ourProducts .swiper-button-next:hover {
+  background: black;
+}
